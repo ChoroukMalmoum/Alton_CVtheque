@@ -1,0 +1,171 @@
+
+body {
+font-family: "Lato", Calibri, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+overflow-y: scroll;
+overflow-x: hidden;
+background: #F4F5F7;
+margin: 0 0 0 0;
+}
+.inputs{
+  width: 80%;
+  height:30px;
+  border-color: #F4F5F7;
+  border-radius: 4px;
+  border-width: thin;
+  box-shadow: inset 0 0 4px rgba(0,0,0,.2);
+
+}
+img {
+  width: 100%;
+  height: 250px;
+  margin: none;
+  border-width: thin;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.7);
+}
+.selectinput {
+  width:80%;
+  height:40px;
+  font-size:15px;
+  border-color: #F4F5F7;
+  border-radius: 4px;
+  border-width: thin;
+  box-shadow: 0 0 1px rgba(0,0,0,.34);
+}
+
+
+.motivationinput{
+  width: 80%;
+  border-color:#F4F5F7;
+  border-radius: 4px;
+  border-width: thin;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.45);
+
+}
+.cvinpuut{
+
+  font-size: 15px;
+  text-align: center;
+  width: 80%;
+  height: 90px;
+  line-height: 80px;
+  border-color:white;
+  border-radius: 4px;
+  border-width: thin;
+  box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+
+}
+.form{
+
+color: #00105A;
+font-size: 21px;
+padding: 40px 0;
+margin: auto;
+border-radius: 5px;
+width: 60%;
+height: 100%;
+padding:2em;
+}
+
+.conditions{
+    font-size: 21px;
+    padding: 40px 0;
+    margin: auto;
+    border-radius: 5px;
+    width: 60%;
+    height: 90%;
+    background: white;
+    padding:2em;
+    color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+
+
+.container {
+width: 100%;
+position: relative;
+text-align: center;
+}
+
+/*header*/
+.space{
+  height: 200px;
+  line-height: 200px;
+}
+
+h1 {
+font-size: 37px;
+line-height: 38px;
+margin: 0;
+position: relative;
+font-weight: 300;
+color: #0D0771;
+text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+
+
+
+
+}
+h2 {
+font-size: 18px;
+font-weight: 300;
+margin: 0;
+padding: 15px 0 5px 0;
+color: #666;
+font-family: Cambria, Georgia, serif;
+font-style: italic;
+text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+color: #0D0771;
+
+}
+.cvbutton {
+
+  border: none;
+  color: white;
+  width: 52%;
+  height: 63px;
+  padding-left: 14%;
+  padding-top: 30px;
+  padding-left: 28%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  color: #0D0771;
+  border: 1px solid #02345f ;
+
+}
+
+
+
+
+
+.buttonlast {
+  padding: 16px 32px;
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  color: #0D0771;
+  border: 2px solid #02345f;
+
+}
+
+.buttonlast:hover {
+  background-color:#02345f;
+  color: white;
+}
